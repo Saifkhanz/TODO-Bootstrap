@@ -12,7 +12,6 @@ function addTask() {
       isCompeleted: false,
     });
 
-    //document.getElementById("TaskTotal").innerHTML = countTotalTask();
     newTask.value = "";
     renderTasks();
   }
@@ -22,7 +21,7 @@ function renderTasks() {
   let TaskListContainer = document.getElementById("TaskList");
   TaskListContainer.innerHTML = "";
   tasks.forEach((task, index) => {
-    new_row = document.createElement("ul");
+    new_row = document.createElement("li");
     new_row.className = "list-group";
     new_row.innerHTML =
       `<li class="list-group-item">
@@ -46,17 +45,9 @@ function renderTasks() {
       `)"name="edit"></i>
       </li>`;
     TaskListContainer.appendChild(new_row);
-    // new_row.innerHTML =
-    //   '<button onclick="editTask(' +
-    //   index +
-    //   ')"name="edit" class="editButton">EDIT';
   });
 }
-function countTotalTask() {
-  var arr = tasks.length;
 
-  return arr;
-}
 function editTask(taskId) {
   var oldValue = tasks[taskId].name;
   var newValue = prompt("New Value?", oldValue);

@@ -19,7 +19,7 @@
     
      background-color: rgb(28, 28, 46);
      border-radius: 8px;
-     /* border:2px solid white; */
+    
     }
     #title{
         color: white;
@@ -71,7 +71,7 @@
   .list-group-item{
       margin-bottom: 15px;
       background-color:#2e2e55!important;
-      /* color: #fff!important; */
+      
   }
   .form-check-input[type=checkbox] {
     font-size: 22px;
@@ -84,7 +84,7 @@
     border-color: #ee9ca7
   }
   label.form-check-label{
-     /* text-decoration: line-through;  */
+     
      font-size: 22px;
        padding-top: 4px;
      padding-left: 25px;
