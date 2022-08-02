@@ -95,3 +95,6 @@
   .strike{
  text-decoration: line-through;
   }
+  .custom{
+   list-style: none;
+  }
