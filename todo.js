@@ -22,7 +22,8 @@ function renderTasks() {
   TaskListContainer.innerHTML = "";
   tasks.forEach((task, index) => {
     new_row = document.createElement("li");
-    new_row.className = "list-group";
+    // new_row.className = "list-group";
+    // new_row = "";
     new_row.innerHTML =
       `<li class="list-group-item">
     <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox"
