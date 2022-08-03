@@ -61,6 +61,7 @@
   
     .delete{ 
        float: right;
+       padding-top:6px;
        padding-bottom: 0px;
        padding-right: 15px;
        font-size: 25px;
@@ -75,7 +76,8 @@
   }
   .form-check-input[type=checkbox] {
     font-size: 22px;
-    margin-top: 12px;
+    margin-top: 8px;
+    margin-bottom: 5px;
     border-radius: 50%!important;
     border-color: white;
     background-color: #2e2e55;
@@ -86,7 +88,7 @@
   label.form-check-label{
      
      font-size: 22px;
-       padding-top: 4px;
+       /* padding-top: 4px; */
      padding-left: 25px;
      font-weight: 500;
      color: #fff;
